@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(34, 86, 170);
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+}
+
+.filterBar{
+    position: relative;
+    left: 20px;
+    width: 700px;
+}
+
+.question{
+    display: flex;
+    border-radius: 5px;
+    margin-top: 30px;
+    list-style: none;
+    position: relative;
+    background-color: rgb(33, 144, 255);
+}
+
+.questionText{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.correctAnswer{
+    display: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.showAnswer .correctAnswer{
+    display: block;
+}
+
+.difficulty{
+    position: absolute;
+    display: flex;
+    left: -15px;
+    top: -15px;
+    align-items: center;
+    justify-content: center;
+    background-color: White;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.hide *{
+    display: none;
+}
+
+.hide{
+    margin-top: 0px;
+}
